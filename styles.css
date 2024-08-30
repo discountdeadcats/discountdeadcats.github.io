@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.content {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post, .project {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.post:last-child, .project:last-child {
+    border-bottom: none;
+}
+
+.post-meta, .update-meta {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.project-updates {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.update {
+    margin-bottom: 10px;
+}
