@@ -10,8 +10,15 @@ const blogPosts = [
         title: "My first 3d printer",
         date: "August 14, 2024",
         author: "Discountdeadcats",
-        content: "Today I built an Ender 3 s1> I set up octo pi with octoeverywhere I might post a link to a stream occasionally."
+        content: "Today I built an Ender 3 s1. I set up octo pi with octoeverywhere I might post a link to a stream occasionally."
     }
+    {
+        title: "The Dragon Fruit Pi",
+        date: "August 30, 2024",
+        author: "Discountdeadcats",
+        content: "For the past  month I have been working on  the Dragon Fruit Pi a cyberdeck using a cm4 and pi pad 5 it is almost finished   ."
+    }
+    
 ];
 
 // Projects data
@@ -22,6 +29,17 @@ const projects = [
         updates: [
             { date: "August 10, 2024", content: "Started the project" },
             { date: "August 12, 2024", content: "Completed the initial design" }
+            { date: "August 12, 2024", content: "Project on hold.fond problems" }
+
+        ]
+    }
+
+    {
+        title: "Project B",
+        description: "Dragon fruit pi .",
+        updates: [
+            { date: "August 27, 2024", content: "assembled the parts" },
+            { date: "August 29, 2024", content: "Comptred final draft: see https://github.com/discountdeadcats/dragon-fruit-pi" }
         ]
     }
 ];
