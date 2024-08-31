@@ -29,7 +29,7 @@ const projects = [
         updates: [
             { date: "August 10, 2024", content: "Started the project" },
             { date: "August 12, 2024", content: "Completed the initial design" }
-            { date: "August 12, 2024", content: "Project on hold.fond problems" }
+            { date: "August 12, 2024", content: "Project on hold, found some issues" }
 
         ]
     }
