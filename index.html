@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog - Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        .content {
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .post {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        .post-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modern Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home" class="content">
+        <h2>Welcome to My Modern Blog</h2>
+        <p>This is the home page of my blog. Here you can find the latest updates and featured content.</p>
+    </div>
+
+    <div id="about" class="content" style="display:none;">
+        <h2>About Me</h2>
+        <p>Hello! I'm the author of this blog. I'm passionate about [your interests/expertise]. 
+        Through this blog, I aim to share my knowledge and experiences with you all.</p>
+    </div>
+
+    <div id="blog" class="content" style="display:none;">
+        <h2>Blog Posts</h2>
+        <div id="blog-posts"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Modern Blog. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Blog posts data
+        const blogPosts = [
+            {
+                title: "First Blog Post",
+                date: "August 13, 2024",
+                author: "Author",
+                content: "This is the content of your first blog post. It can be as long as you want, discussing any topic you'd like to cover in your blog."
+            },
+            {
+                title: "Second Blog Post",
+                date: "August 14, 2024",
+                author: "Author",
+                content: "This is the content of your second blog post. Feel free to add images, links, or any other HTML elements to make your post more engaging."
+            }
+        ];
+
+        // Function to render blog posts
+        function renderBlogPosts() {
+            const blogPostsContainer = document.getElementById('blog-posts');
+            blogPostsContainer.innerHTML = '';
+            blogPosts.forEach(post => {
+                const article = document.createElement('article');
+                article.className = 'post';
+                article.innerHTML = `
+                    <h3>${post.title}</h3>
+                    <p class="post-meta">Posted on ${post.date} by ${post.author}</p>
+                    <p>${post.content}</p>
+                `;
+                blogPostsContainer.appendChild(article);
+            });
+        }
+
+        // Navigation function
+        function navigateTo(sectionId) {
+            document.querySelectorAll('.content').forEach(content => {
+                content.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+            if (sectionId === 'blog') {
+                renderBlogPosts();
+            }
+        }
+
+        // Event listeners for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                navigateTo(this.getAttribute('href').substring(1));
+            });
+        });
+
+        // Initial render
+        navigateTo('home');
+    </script>
+</body>
+</html>
