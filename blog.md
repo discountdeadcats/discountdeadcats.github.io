@@ -5,4 +5,4 @@ description: Here be writings
 permalink: /blog
 ---
 
-[Makeing an Ender 3 s1 better](/blog/upgrading-an-ender-3s1/)
+[Makeing an Ender 3 s1 better](/blog/upgrading-an-ender-3-s1/)
