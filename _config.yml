@@ -1,23 +1,24 @@
-###########
-# site.title
+#########################
+# Site Basics
 
-title: jekyllBear
-description: a minimal, text focused blog theme
-# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
-url: "https://knhash.in/jekyllBear" # the base hostname & protocol for your site
-# host: 0.0.0.0
-
+title: discountdeadcats blog
+description: A minimal blog to share my projects
+url: "https://discountdeadcats.github.io"
+baseurl: "" # Leave blank for GitHub Pages root
+permalink: /blog/:slug/
+timezone: America/New_York
+future: false
 
 #########################
-# more settings
+# Plugins and Markdown
 
 plugins:
   - jekyll-redirect-from
 
-whitelist:
-  - jekyll-redirect-from
-
 markdown: kramdown
+
+#########################
+# HTML Compression
 
 compress_html:
   clippings: all
@@ -28,14 +29,21 @@ compress_html:
   ignore:
     envs: []
 
+#########################
+# Sass (optional, enable if using Sass stylesheets)
+
 # sass:
 #   sass_dir: css
-#   style:    compressed
+#   style: compressed
+
+#########################
+# Collections (e.g., tags or categories)
 
 collections:
   my_tags:
     output: true
     permalink: /tagged/:slug/
+
 defaults:
   -
     scope:
@@ -44,24 +52,19 @@ defaults:
     values:
       layout: tagged
 
-# baseurl: ""
-permalink: /blog/:slug
-timezone: America/New_York
-future: false
+#########################
+# Navigation Links (optional)
 
-exclude:
-- README.md
-- LICENSE.md
-
-exclude: [vendor]
-
-Blog: /blog
-
-# Add general links to site pages here
 links:
   # Resume: /assets/resume.pdf
-  
 
-# Add links for more focus here
 special_links:
   # "Search": https://duckduckgo.com
+
+#########################
+# GitHub Pages Compatibility
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - vendor
