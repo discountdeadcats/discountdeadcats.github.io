@@ -5,4 +5,4 @@ description: Here be writings
 permalink: /blog
 ---
 
-Here be writings. Mostly mundane, sometimes fanciful.
+[Makeing an Ender 3 s1 better](/blog/upgrading-an-ender-3s1/)
