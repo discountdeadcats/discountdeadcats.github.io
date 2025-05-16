@@ -1,5 +1,5 @@
 ---
-title: "Upgrading an ender 3 s1"
+title: "Upgrading an Ender 3 S1"
 date: 2025-05-16
 layout: post
 categories: [projects]
