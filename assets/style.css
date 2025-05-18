@@ -21,15 +21,15 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #1A1310; /* Darker espresso */
-        --heading-color: #F0DFC0; /* Lighter café latte foam */
-        --text-color: #F0E6D2; /* Lighter coffee stained paper */
-        --link-color: #E5A254; /* Lighter caramel drizzle */
-        --visited-color: #C49B76; /* Lighter roasted coffee beans */
-        --main-color: #B89470; /* Lighter mocha */
-        --code-background-color: #2C2117; /* Dark chocolate coffee */
-        --code-color: #F0DFC0; /* Lighter café latte foam */
-        --blockquote-color: #6E563D; /* Lighter coffee grounds */
+          --background-color: #E1F2D0; /* Lighter Lime */
+          --heading-color: #083330; /* Darker Green  */
+          --text-color: #083330; /* Darker espresso */
+          --link-color: #6FC18E; /* Darker caramel */
+          --visited-color: #A4A484; /* Darker roasted coffee beans */
+          --main-color: #6FC18E; /* Darker café au lait */
+          --code-background-color: #A4A484; /* Coffee stained paper */
+          --code-color: #2C1E15; /* Darker roast coffee */
+          --blockquote-color: #B99B6B; /* Darker café latte foam */
     }
 }
 
