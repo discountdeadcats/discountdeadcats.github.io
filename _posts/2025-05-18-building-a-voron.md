@@ -16,8 +16,8 @@ Well, right now the ideal amount is **three**, and the third will be my **first 
 - [Lithium grease](https://amzn.to/4kbZgEI)  
 - [Square](https://amzn.to/3H2mjU8)  
 - [Calipers](https://amzn.to/4md58PA)  
-- [Heatset inserts kit](https://shorturl.at/mPB4d)  
-- [Wago connector](https://shorturl.at/x45e4)
+- [Heatset inserts kit](https://s.click.aliexpress.com/e/_onpiDHH)  
+- [Wago connector](https://s.click.aliexpress.com/e/_oDWOjWP)
 
 ---
 
