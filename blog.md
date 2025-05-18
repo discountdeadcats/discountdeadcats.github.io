@@ -6,3 +6,4 @@ permalink: /blog
 ---
 
 [Makeing an Ender 3 s1 better](/blog/upgrading-an-ender-3-s1/)
+[Planning A Voron](/blog/building-a-voron/)
