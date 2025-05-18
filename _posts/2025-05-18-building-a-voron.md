@@ -23,3 +23,12 @@ Well, right now the ideal amount is **three**, and the third will be my **first 
 
 I thought it would be cool to build a **Voron** over the summer.  
 I’ll hopefully post updates here!
+
+---
+### Mods To add at some points
+
+I am hopeing to add some mods like 
+- rgbled
+- z prope
+- filter for abs
+- bondtech indx???
