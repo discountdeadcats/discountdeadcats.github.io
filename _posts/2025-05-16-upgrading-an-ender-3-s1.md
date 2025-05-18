@@ -1,4 +1,3 @@
-
 ---
 title: "Upgrading an Ender 3 S1"
 date: 2025-05-16
@@ -6,40 +5,67 @@ layout: post
 categories: [projects]
 tags: [3d-printing]
 ---
-## Upgrading an ender 3 s1
 
-About a year ago, I bought an Ender 3 S1. Although I have had a lot of issues with this printer I added a lot of things So let's get into them. 
+## Upgrading an Ender 3 S1
+
+About a year ago, I bought an Ender 3 S1. Although I've had a lot of issues with this printer, I've also made several upgrades. Let's get into them.
+
+---
 
 ### PEI Flex Plate
 
-The First update I did was to add a PEI build plate, the S1 came stock with a Cmagnet Plate  build plate. which within a month I  had destroyed due to setting the nozzle to low and dragging the nozzle  on the build plate and melting it. so  I bought a cheap dual sided PEI plate. Affiliate link below. That build plate works well but  I need to wash it more often than my other PEI plate.
+The first upgrade I made was swapping the stock CMagnet build plate for a dual-sided PEI sheet. I damaged the original plate within a month by setting the nozzle too low, which dragged it across the surface and melted it.
 
-### Recovery From The Blob Of Doom
+The PEI plate I bought was inexpensive and works well, although I do need to clean it more frequently than my other PEI plate. (Affiliate link below.)
 
-The next couple updates where more repaired do to a blob of doom  I had to replace the entire  hotend and heatsink assembly, twice. after that I stopped letting it print unattended.
+---
 
-  
+### Recovery from the Blob of Doom
 
-### Octoprint
+After experiencing the infamous "Blob of Doom," I had to replace the entire hotend and heatsink assembly—twice. Since then, I’ve avoided printing unattended.
 
-For a while I used a octoprint on a pi 3a+ that worked well despite the age of the Pi (Got during the Great Pi Shortage) I installed a few extensions such as pretty gcode, octolaps, octoeverywhere  and cancel object. there might have been others but recently  I switched to… 
+---
+
+### OctoPrint
+
+For a while, I used OctoPrint on a Raspberry Pi 3A+, which worked surprisingly well given the Pi's limitations (I got it during the Great Pi Shortage). I installed several extensions:
+- **PrettyGCode**
+- **OctoLapse**
+- **OctoEverywhere**
+- **Cancel Object**
+
+There may have been others, but eventually, I switched to...
+
+---
 
 ### Klipper
 
-I’ll be honest, I thought that this would be much harder than it was. I have a reasonable   experience with Linux pis and cmd interfaces in general , maybe my issues are farther down the road but I have not had any issues with it. Currently I have a it connected to octoeverywhere, klipper screen and case printed for it. 
+Honestly, setting up Klipper was much easier than I expected. I’m comfortable with Linux, Raspberry Pis, and the command line, which probably helped.
+
+Right now, the printer is running Klipper with:
+- **OctoEverywhere**
+- **KlipperScreen**
+- A **custom printed case** for the screen and controller
+
+So far, it’s been stable.
+
+---
 
 ### CHT Nozzle
 
-I got a knock off cht mk8 nozzle of AliExpress I have not used it much but I hope to use it soon.
+I picked up a knockoff CHT MK8 nozzle from AliExpress. I haven’t used it much yet, but I’m hoping it will improve flow rate when I do.
 
-maybe improve the flow rate 
+---
 
-## Future Upgrades,
+## Future Upgrades
 
-### Taurus v5
+### Taurus V5 Cooling Mod
 
-I wanted to add better cooling so  I bought the parts for this and printed it just waiting for a few things to arrive. Apparently the sprite extruder has bad cooling So this printed upgrade is supposed to  improve that with the aid of two 5015 blower fans.
+The Sprite extruder is known to have subpar cooling. I printed the parts for the **Taurus V5** mod, which uses two 5015 blower fans for better airflow. Just waiting on a few components to finish the install.
+
+---
 
 ### Input Shaping
 
-I also bought an adxl345 to get faster without ringing artifacts  we will see how that goes
+I also ordered an **ADXL345** accelerometer to enable input shaping and hopefully eliminate ringing artifacts at higher speeds. We’ll see how it goes.
+
