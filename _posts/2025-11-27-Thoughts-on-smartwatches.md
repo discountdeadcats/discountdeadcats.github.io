@@ -1,3 +1,11 @@
+---
+title: "Thoughts on smartwatches"
+date: 2025-11-27
+layout: post
+categories: [thought]
+tags: [diy, tech]
+---
+
 # Thoughts on Smart Watches
 
 I recently found my old **Fitbit Versa 2**. It has been a change of pace from my old **Casio F91W**. Even though I have to charge it, and even though I can’t use it with my phone in school, I still enjoy it. But I started thinking about getting a more open-style watch—something maybe a little older.
