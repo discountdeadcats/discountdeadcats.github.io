@@ -8,19 +8,32 @@ layout: compress
 
     {% include header.html %}
 
-    
     <h1>{{ page.title }}</h1>
     <i>{{ page.date | date: "%b %d, %Y" }}</i>
     <h4 class="subtitle">{{ page.subtitle }}</h4>
 
     {{ page.content }}
 
-
+    <!-- Giscus comments -->
+    <script src="https://giscus.app/client.js"
+            data-repo="discountdeadcats/discountdeadcats.github.io"
+            data-repo-id="R_kgDOOrFVkQ"
+            data-category="General"
+            data-category-id="DIC_kwDOOrFVkc4CzI7h"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
 
 </main>
 
 {% include footer-post.html %}
 
 </body>
-
 </html>
