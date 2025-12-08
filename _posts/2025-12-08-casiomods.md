@@ -15,4 +15,4 @@ But that's not what I'm talking about today. No, today I am talking about the mo
 
 I decided for my first mod to do something pretty simple. I would add a piece of Kapton tape to the LCD to make it have a nice amber CRT look.
 
-![new old]([image-url](https://ibb.co/RpBvtxyJ) "comapir")
+![new old]([https://ibb.co/RpBvtxyJ](https://ibb.co/RpBvtxyJ) "comapir")
