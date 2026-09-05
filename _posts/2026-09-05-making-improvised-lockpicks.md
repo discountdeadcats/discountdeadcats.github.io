@@ -1,4 +1,3 @@
-```
 ---
 title: "Making Improvised Lockpicks"
 date: 2026-09-05
@@ -31,4 +30,4 @@ I ended up wrapping the handles in masking tape so I wouldn't cut myself on the 
 ![LOCKPICKS](https://i.ibb.co/4ZYmC6d0/20251208-140153.jpg "LOCKPICKS")
 ### Results
 I ended up with one hook and one diamond tool, kind of... they do work to pick locks, though. But I am still very much looking forward to the higher-quality tools.
-```
+
