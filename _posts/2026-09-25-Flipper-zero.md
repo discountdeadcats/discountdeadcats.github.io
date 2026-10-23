@@ -3,7 +3,7 @@ title: "flipper zero justification"
 date: 2026-09-26
 layout: post
 categories: [blog]
-tags: []
+tags: [flipper,rf]
 ---
 
 
