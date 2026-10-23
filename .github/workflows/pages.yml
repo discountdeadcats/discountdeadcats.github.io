@@ -39,9 +39,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pages
-          path: ${{ steps.pages.outputs.base_path }}
+          path: ./_site
         # Using 'name: pages' matches what actions/deploy-pages expects
-        # Using the pages output for path keeps compatibility with non-default site directories
+        # Upload the generated site output instead of a URL base path
 
   deploy:
     environment:
